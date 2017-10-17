@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>打字效果</title>
+		<style type="text/css">
+			body{
+				background-color: lightblue;
+				position: relative;
+			}
+			#ss{
+				text-align: center;
+				font-size: 5em;
+				height: 80px;
+				
+			}
+			#dd{
+				text-align: center;
+				font-size: 5em;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="ss">ddddd</h1>
+		<h2 id="dd">ddddd</h2>
+		<script type="text/javascript">
+			var oh1=document.getElementById("ss");
+			var arry=oh1.innerText;
+			oh1.innerHTML="";
+			var i=0;
+		    function start(){
+		    	if (i<arry.length) {
+		    		oh1.innerText+=arry[i];
+		    	}
+		    	else{
+		    		i=-1;
+		    		oh1.innerHTML="";
+		    	}
+		    	i++;
+		    }
+		    setInterval(start,400);
+		    var oh2=document.getElementById("dd");
+		    var arry2=oh2.innerText;
+		    oh2.innerHTML="";
+		    var a=0;
+		    var ot=500;
+		    function st(){
+		    		if (a<arry2.length) {
+		    		oh2.innerText+=arry2[a];
+		    	}
+
+		    	a++;
+		    }
+		    setInterval(st,ot);
+		</script>
+	</body>
+</html>
