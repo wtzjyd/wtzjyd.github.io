@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\WuZiQi6\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c9da253504ed0a8aeba15ad100cd3962617a0a27">
+        <dex dex="D:\WuZiQi6\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0570ad82ebf84bcf04f42334d31b01e95d71a050\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WuZiQi6\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b3d09607d0e21c2fdba5d0ac56944695e7a7af9">
+        <dex dex="D:\WuZiQi6\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3b348dd274afb131bb7a71292e76a6bf2b43a0f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\WuZiQi6\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134\classes.dex" />
+    </item>
+
+</items>
